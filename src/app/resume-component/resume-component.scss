@@ -1,0 +1,28 @@
+.image-logo {
+	height: 100px;
+	width: 100px;
+}
+ul {
+	list-style: none;
+}
+ul li::before {
+	content: "•";
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	width: 15px;
+}
+svg {
+	height: 20px;
+	width: 20px;
+	fill: blue;
+	color: blue;
+}
+.image-logo1 {
+	height: 90px;
+	width: 200px;
+}
+
+.color {
+	background-color: #E9E9E9;
+}

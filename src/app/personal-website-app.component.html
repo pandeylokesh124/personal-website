@@ -1,0 +1,70 @@
+<nav class="navbar fixed-top navbar-expand-md">
+	<a class="navbar-brand mr-1" href="#home">
+		<img class="float-left sig" src="./assets/signature.png">
+	</a>
+	<button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+	    <span>
+	    	<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+			</svg>
+	    </span>
+    </button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link font-weight-bold text-color" href="#home" click="anchorScroll('home')">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link font-weight-bold text-color" href="#about-me" click="anchorScroll('about-me')">About me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link font-weight-bold text-color" href="#portfolio" click="anchorScroll('portfolio')">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link font-weight-bold text-color" href="#resume" click="anchorScroll('resume')">My Resume</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link font-weight-bold text-color" href="#contact-me" click="anchorScroll('contact-me')">Contact Me</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="container-fluid" id="home">
+	<div class="row">
+		<div class="col-md ml-5">
+			<div class="pt-5">
+				<p>WELCOME TO MY PAGE !</p>
+				<p class="name text-color display-4">Hi, I'm Lokesh Pandey</p> <span class="type">
+					<span class="name text-color display-4">
+						<span><strong>DS & Algo enthusiast.</strong></span>
+						<span><strong>a System Architect.</strong></span>
+						<span><strong>a Problem Solver.</strong></span>
+					</span>
+				</span>
+			</div><br>
+			<div>
+				<div class="row">
+					<div class="dash"></div>
+					<div class="col-sm-1" style="padding-left: 5px;">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+							<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+						</svg>
+					</div>
+					<div class="col-sm" style="padding-left:0px;">
+						<strong>India</strong><br>
+						<strong>Bengaluru, Prayagraj, New Delhi</strong>
+					</div>
+				</div>
+			</div>
+			<br>
+			<a class="btn btn-dark rounded-0" href="#resume" role="button"><strong>My Resume</strong></a>
+		</div>
+		<div class="col-md pt-3 ml-5">
+			<img class="img-fluid" src="./assets/Lokesh.jpeg">
+		</div>
+	</div>
+</div>
+<about-me></about-me>
+<portfolio></portfolio>
+<resume-component></resume-component>
+<contact-me></contact-me>

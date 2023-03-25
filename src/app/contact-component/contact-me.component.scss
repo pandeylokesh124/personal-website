@@ -1,0 +1,27 @@
+svg {
+	height: 30px;
+	width: 30px;
+}
+
+.fb-svg {
+	color: #3b5998
+}
+
+.twitter-svg {
+	color: #00acee
+}
+
+.linkedin {
+	color: #0A66C2
+}
+
+ul {
+	list-style: none;
+}
+ul li::before {
+	content: "•";
+	color: green;
+	font-weight: bold;
+	display: inline-block;
+	width: 15px;
+}

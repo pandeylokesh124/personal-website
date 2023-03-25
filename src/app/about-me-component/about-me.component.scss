@@ -1,0 +1,75 @@
+svg {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	transform: rotate(-90deg);
+}
+
+svg circle {
+	fill: none;
+	stroke: grey;
+	stroke-width: 5px;
+}
+
+svg circle:nth-child(2) {
+	stroke: black;
+	position: relative;
+	z-index: 1;
+}
+
+.circle-box span {
+	font-size: 20px;
+}
+
+.circle-box:nth-child(1) svg circle:nth-child(2) {
+	stroke-dasharray: calc(100 * 6);
+	stroke-dashoffset: calc((100 * 6) - ((100 * 6) * 95) / 100);
+}
+
+.circle-box:nth-child(2) svg circle:nth-child(2) {
+	stroke-dasharray: calc(100 * 6);
+	stroke-dashoffset: calc((100 * 6) - ((100 * 6) * 95) / 100);
+}
+
+.circle-box:nth-child(3) svg circle:nth-child(2) {
+	stroke-dasharray: calc(100 * 6);
+	stroke-dashoffset: calc((100 * 6) - ((100 * 6) * 95) / 100);
+}
+
+.circle-box:nth-child(4) svg circle:nth-child(2) {
+	stroke-dasharray: calc(100 * 6);
+	stroke-dashoffset: calc((100 * 6) - ((100 * 6) * 95) / 100);
+}
+
+.align {
+	margin-left: -118px;
+}
+
+.title {
+	text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.row-width {
+	width: 200px;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+	content: open-quote;
+	font-size: 10em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.about-font {
+	font-size: 20px
+}
