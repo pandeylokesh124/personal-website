@@ -1,4 +1,4 @@
-# PersonalWebsite
+# PersonalWebsite - This angular application was started in order to learn angular and ended up with writing my own simple website :)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
