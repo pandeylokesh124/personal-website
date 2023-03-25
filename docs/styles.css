@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E9E9E9;
+  font-family: "Spectral", serif;
+}
+
+.section-padding {
+  padding-top: 30px;
+}
+
+.underline {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
+/*# sourceMappingURL=styles.css.map*/
