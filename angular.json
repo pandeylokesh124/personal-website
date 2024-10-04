@@ -128,5 +128,8 @@
 			}
 		}
 	},
-	"defaultProject": "PersonalWebsite"
+  "defaultProject": "PersonalWebsite",
+  "cli": {
+    "analytics": false
+  }
 }

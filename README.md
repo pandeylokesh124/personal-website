@@ -1,6 +1,6 @@
-# PersonalWebsite - This angular application was started in order to learn angular and ended up with writing my own simple website :)
+# PersonalWebsite - I started this project in order to learn angular and ended up with writing my own a very simple website :). Right now there is no backend service running.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
 ## Development server
 
