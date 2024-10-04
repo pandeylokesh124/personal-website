@@ -6,14 +6,12 @@ import { PersonalWebsiteAppComponent } from './personal-website-app.component';
 import { AboutMeComponent } from './about-me-component/about-me-component';
 import { ResumeComponent } from './resume-component/resume-component';
 import { ContactMeComponent } from './contact-component/contact-me.component';
-import { PortfolioComponent } from './portfolio-component/portfolio.component';
 
 const routes: Routes = [
 	{path: 'home', component: PersonalWebsiteAppComponent},
 	{path: 'resume', component: ResumeComponent},
 	{path: 'about-me', component: AboutMeComponent},
-	{path: 'contact-me', component: ContactMeComponent},
-	{path: 'portfolio', component: PortfolioComponent}
+	{path: 'contact-me', component: ContactMeComponent}
 ]
 
 @NgModule({
@@ -21,8 +19,7 @@ const routes: Routes = [
 		PersonalWebsiteAppComponent,
 		AboutMeComponent,
 		ResumeComponent,
-		ContactMeComponent,
-		PortfolioComponent
+		ContactMeComponent
 	],
 	imports: [
 		BrowserModule,
